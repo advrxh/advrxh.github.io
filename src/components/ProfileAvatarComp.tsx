@@ -33,8 +33,8 @@ function ProfileAvatarComp() {
                 justifyContent="center"
                 className={style.avatarCon}
             >
-                <Link href="https://aadilvarsh.github.io/website" target="_blank">
-                    <Avatar src="https://aadilvarsh.github.io/website/images/pfp.png" alt="pfp" className={style.avatar} />
+                <Link href="https://aadilvarsh.github.io/">
+                    <Avatar src="https://aadilvarsh.github.io/images/pfp.png" alt="pfp" className={style.avatar} />
                 </Link>
             </Grid>
         </React.Fragment>
