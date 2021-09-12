@@ -29,7 +29,7 @@ const FooterComp = () => {
             <Typography variant="subtitle1" className={style.footerText}  >Programmer | Art Admirer | Aspiring FilmMaker</Typography>
         </Grid>
         <Grid item container justifyContent="center" alignContent="flex-start" className={style.footerCont2}>
-            <Link href="https://github.com/AadilVarsh/website" target="_blank">
+            <Link href="https://github.com/AadilVarsh/aadilvarsh.github.io/" target="_blank">
                 <Typography variant="subtitle2" className={style.footerText2}>Made with ♥ and React</Typography>
             </Link>
         </Grid>
