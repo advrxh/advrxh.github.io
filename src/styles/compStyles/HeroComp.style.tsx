@@ -28,10 +28,12 @@ const HeroCompStyle = makeStyles((theme: Theme) => createStyles({
         display: 'block',
         left: theme.spacing(-.25),
         [theme.breakpoints.up(1280)]: {
-            fontSize: theme.typography.fontSize + 40
+            fontSize: theme.typography.fontSize + 40,
+            marginTop: theme.spacing(-1)
         },
         [theme.breakpoints.between(960, 1280)]: {
-            fontSize: theme.typography.fontSize + 35
+            fontSize: theme.typography.fontSize + 35,
+            marginTop: theme.spacing(-1)
         },
         [theme.breakpoints.between(600, 960)]: {
             fontSize: theme.typography.fontSize + 30
@@ -68,7 +70,7 @@ const HeroCompStyle = makeStyles((theme: Theme) => createStyles({
         color: theme.palette.common.white,
         position: 'relative',
         display: 'block',
-        top: theme.spacing(2),
+        top: theme.spacing(),
         fontWeight: 450,
         [theme.breakpoints.up(1280)]: {
             fontSize: theme.typography.fontSize + 25

@@ -23,20 +23,22 @@ const FooterCompStyle = makeStyles((theme: Theme) => createStyles({
         position: 'fixed',
         bottom: 0 + theme.spacing(6),
         cursor: 'pointer',
+        color: 'white',
+        fontFamily: 'consolas'
     },
     footerText: {
         color: theme.palette.primary.light,
         [theme.breakpoints.up(1280)]: {
-            fontSize: theme.typography.fontSize + 5
+            fontSize: theme.typography.fontSize + 15
         },
         [theme.breakpoints.between(960, 1280)]: {
-            fontSize: theme.typography.fontSize + 5
+            fontSize: theme.typography.fontSize + 10
         },
         [theme.breakpoints.between(600, 960)]: {
-            fontSize: theme.typography.fontSize + 3
+            fontSize: theme.typography.fontSize + 10
         },
         [theme.breakpoints.between(0, 600)]: {
-            fontSize: theme.typography.fontSize - 3
+            fontSize: theme.typography.fontSize + 10
         }
 
     },

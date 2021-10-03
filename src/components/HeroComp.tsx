@@ -62,7 +62,7 @@ const HeroContent = () => {
             </Grid>
             <Grid item container justifyContent="center" alignItems="center" className={style.heroTextCon}>
                 <Typography variant="h4" className={style.heroText2}>
-                    Snek 🐍
+                    Snek🐍
                 </Typography>
             </Grid>
 

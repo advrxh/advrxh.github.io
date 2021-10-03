@@ -14,9 +14,14 @@ import FooterCompStyle from './../styles/compStyles/FooterComp.style'
 
 // CONSTANTS
 
+type FooterCompProps = {
+    footerNavText: string,
+    footerNavPath: string
+}
+
 // MAIN
 
-const FooterComp = () => {
+const FooterComp = ({ footerNavText, footerNavPath }: FooterCompProps) => {
     const style = FooterCompStyle();
     return (<>
         <Grid item container justifyContent="center" alignContent="flex-start" className={style.footerCont}
@@ -26,7 +31,11 @@ const FooterComp = () => {
             sm={8}
             xs={10}
         >
-            <Typography variant="subtitle1" className={style.footerText}  >Programmer | Art Admirer | Aspiring FilmMaker</Typography>
+            <Typography variant="h4" className={style.footerText}>
+                <Link href={footerNavPath}>
+                    {footerNavText}
+                </Link>
+            </Typography>
         </Grid>
         <Grid item container justifyContent="center" alignContent="flex-start" className={style.footerCont2}>
             <Link href="https://github.com/AadilVarsh/aadilvarsh.github.io/" target="_blank">

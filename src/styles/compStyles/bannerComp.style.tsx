@@ -24,7 +24,7 @@ const bannerCompStyle = makeStyles((theme: Theme) => createStyles({
         background: `${theme.palette.primary.main} no-repeat center`,
         backgroundSize: 'cover',
         borderBottom: "8px solid white",
-        borderTop: "8px solid white"
+        borderTop: "8px solid white",
     },
     nameHeader: {
         color: theme.palette.secondary.main,

@@ -36,6 +36,7 @@ function Banner() {
             >
                 <Typography variant="h1" className={style.nameHeader} >aadilvarsh</Typography>
                 <Typography variant="h4" className={style.tagline}>A basic <strong>JACK</strong> of all trades.</Typography>
+
             </Grid>
         </React.Fragment>
     );
