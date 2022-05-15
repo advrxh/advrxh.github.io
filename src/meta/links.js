@@ -7,7 +7,7 @@ export const domains = (styles) => [
     {
         name: "github",
         icon: <GitHubIcon color="primary" className={styles.icon} />,
-        href: "https://github.com/aadilvarsh",
+        href: "https://github.com/advrxh",
     },
     {
         name: "twitter",
@@ -22,6 +22,6 @@ export const domains = (styles) => [
     {
         name: "mail",
         icon: <EmailIcon color="primary" className={styles.icon} />,
-        href: "mailto:aadilvarshofficial@gmail.com",
+        href: "mailto:advrxh@duck.com",
     },
 ];
